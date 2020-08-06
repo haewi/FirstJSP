@@ -14,7 +14,7 @@
 String name = request.getParameter("uname");
 out.print("welcome " + name);
 
-pageContext.setAttribute("user",name,PageContext.SESSION_SCOPE);  
+/* pageContext.setAttribute("user",name,PageContext.SESSION_SCOPE); */  
 /* response.sendRedirect("http://www.google.com"); */
 
 %>
